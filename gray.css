@@ -1,39 +1,4 @@
-@keyframes fadein {
-    to {
-        opacity: 1; 
-        background-color: white;
-        visibility: visible;
-    }
-  }
-
-#photo1 p {
-    opacity: 0;
-}
-
-#photo2 p {
-    opacity: 0;
-}
-
-#rail1 {
-    visibility: hidden;
-}
-
-#rail2 {
-    visibility: hidden;
-}
-
-#photo1:hover p {
-    animation: fadein 1s forwards;
-}
-
-#photo1:hover #rail1 {
-    animation: fadein 3s forwards;
-}
-
-#photo2:hover p {
-    animation: fadein 1s forwards;
-}
-
-#photo2:hover #rail2 {
-    animation: fadein 3s forwards;
+body {
+    background-color:rgb(155, 144, 147);
+    font-family: "Times New Roman", Times, serif;
 }
