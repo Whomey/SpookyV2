@@ -3,8 +3,12 @@
   }
   
   body {
-		  color:white;
-		  background: url("rain.jpg");
+		  background: url("Priyanka.jpg");
+		  background-color:#4A489C;
+		  background-repeat:no-repeat;
+		  background-size:cover;
+		  background-position:center;
+		  background-attachment:fixed;
 		  height: 100vh;
 		  margin: auto;
   }
@@ -15,11 +19,9 @@
   }
   
   content {
-	  padding: 10px 20px;
 	  display: flex;
 	  flex-direction:column;
-	  justify-content: space-evenly;
-	  align-items: center ;
+	  justify-content: center;
   }
   
   section {
@@ -27,43 +29,119 @@
 	  justify-content: space-evenly;
 	  align-items: center ;
 	  justify-content: center;
-	  flex-shrink:1;
   }
   
   h1 {
-	  font-size:3em;
-	  font-family: 'Special Elite', cursive;
+	  padding:20px;
+	  color:#FBB039;
+	  font-size:42px;
+	  font-family: 'realScream', regular;
 	  text-align: center;
+	  width:100%;
+	  text-shadow: 3px 3px #1F1E45;
   }
   
-  iframe {
-	  flex-shrink:1;
-  }
   
   h2 {
-	  color:white;
-	  font-family: 'Roboto', sans-serif;
-	  padding: 10px 30px;
+	  position:relative;
+	  left:290px;
+	  width:20%;
+	  text-align:center;
+	  color:#FBB039;
+	  font-family: 'realScream', regular;
+	  font-size: 20px;
+	  padding: 10px 40px;
 	  margin-left: 20px;
 	  margin-right: 20px;
-	  border: 2px solid white;
+	  border-radius: 12px;
+	  background-color:#1F1E45 ;
+	  letter-spacing: 2px
   }
   
   a {
 	  text-decoration:none;
 	  color:black;
   }
-	  
+  
   p {
-	  min-width:500px;
-	  width:70%;
-	  color:black;
+	  position:relative;
+	  left:90px;
+	  width:45%;
+	  color:#FBD839;
+	  padding:40px;
+	  font-size:15px;
+	  font-family: 'Open Sans', sans-serif;
+	  text-align:justify;
+	  margin: 20px 0px;
+  }
+  
+  iframe {
+	  position:relative;
+	  left: 240px;
+	  border: 1px solid #1F1E45;
+	  margin: 20px 0px;
+	  float:
+  }
+  
+  @font-face {
+	  font-family: realScream;
+	  src: url(Scream_Real.otf)
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+	h1 {
+	  font-size:22px;
+	  font-family: 'realScream', regular;
+	  text-align: center;
+	  text-shadow: 2px 2px #1F1E45
+  }
+  
+	body {
+	  width:100%;
+	  margin:0;
+	  background: url("Priyankamobile.jpg");
+	  background-color:#4A489C;	
+	  background-repeat:no-repeat;
+	  background-position:center bottom;
+	  background-attachment: fixed;
+	}
+	
+	content {
+	  padding: 10px 20px;
+	  align-items: center ;
+	  width:100%;
+  }
+  
+  p {
+	  position:static;
+	  font-size: 14px;
+	  color:#FBD839;
 	  padding:20px;
-	  background: rgba(255, 255, 255, 0.9);
-	  flex-shrink:1;
+	  background: rgba(50, 47, 106, 0.93);
+	  min-width: 95%;
 	  font-family: 'Open Sans', sans-serif;
 	  text-align:center;
-	  margin: 50px 0px;
-	  flex-wrap: wrap;
+	  margin: 10px 0px;
+  
   }
-	  
+  
+  
+  main {
+	  padding: 20px;
+	  width: 100%;
+  }
+  
+  iframe {
+	  position:static;
+	  margin:10px 0px;
+	  width:99%;
+  }
+  
+  h2 {
+	  border: 1px solid #FBB039;
+	  position:static;
+	  width:auto;
+	  font-size:20;
+  
+  }

@@ -1,4 +1,11 @@
 body {
-    font-family: "Times New Roman", Times, serif;
-    background: url("rain.jpg");
+    font-family: 'realScream', regular;
+    background: url("Priyanka.jpg");
 }
+
+@media only screen and (max-width: 600px) {
+	body {
+        font-family: 'realScream', regular;
+        background: url("Priyankamobile.jpg");
+	}
+  }
